@@ -1,0 +1,24 @@
+solver00
+scoring xs = scoreFlow xs * countZeros xs
+recusion:
+every branch has the same weight as his trees
+avg(sum(branches)+tree)
+
+solver01
+scoring xs = scoreFlow xs * countZeros xs
+recursion:
+avg(avg(branches) + tree)
+the branches average is weighted as much as the tree
+
+solver02
+scoring xs = scoreFlow xs * countZeros xs
+recursion:
+only the last branches count
+sum(branches)
+
+solver03
+scoring xs = scoreFlow xs * countZeros xs
+recursion:
+only the last branches count
+avg(branches)
+should do exactly the same as 02
