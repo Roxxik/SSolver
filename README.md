@@ -1,4 +1,4 @@
 SSolver
 =======
 
-2048 Solver
+This was my contribution to the Programmierwettberwerb SS2014 @ Fh-Wedel
